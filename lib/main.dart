@@ -33,14 +33,22 @@ class MyApp extends StatelessWidget {
 //              textScaleFactor: 0.8,
 //              style: TextStyle(color: Colors.black),
 //            )));
-        home: new Row(children: <Widget>[
-          new Expanded(child: new Text("Text 1",textAlign: TextAlign.center,),),
-          new Expanded(child: new Text("Text 2",textAlign: TextAlign.center,),),
-          new Expanded(
+        home: new Column(mainAxisSize: MainAxisSize.min,crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[
+          new Flexible(
+            child: new Text(
+              "Text 1"
+            ),
+          ),
+          new Flexible(
+            child: new Text(
+              "Text 2"
+            ),
+          ),
+          new Flexible(
               child: new Text(
-            "Text 3",
-            textAlign: TextAlign.center,
-          ))
+            "Text 3"
+          )),
+          const FlutterLogo()
         ]));
   }
 }

@@ -23,16 +23,25 @@ class MyApp extends StatelessWidget {
 //      home: new Banner(message: "Hello Word", location: BannerLocation.bottomEnd),
 //        home: new Text(
 //          "Hello Android App",textAlign: TextAlign.center,overflow: TextOverflow.ellipsis),
-        home: new Container(
-            color: Colors.white,
-            padding: const EdgeInsets.all(50.9),
-            alignment: Alignment.topCenter,
-            child: new Text(
-              "Hello App",
-              textAlign: TextAlign.center,
-              textScaleFactor: 0.8,
-              style: TextStyle(color: Colors.black),
-            )));
+//        home: new Container(
+//            color: Colors.white,
+//            padding: const EdgeInsets.all(50.9),
+//            alignment: Alignment.topCenter,
+//            child: new Text(
+//              "Hello App",
+//              textAlign: TextAlign.center,
+//              textScaleFactor: 0.8,
+//              style: TextStyle(color: Colors.black),
+//            )));
+        home: new Row(children: <Widget>[
+          new Expanded(child: new Text("Text 1",textAlign: TextAlign.center,),),
+          new Expanded(child: new Text("Text 2",textAlign: TextAlign.center,),),
+          new Expanded(
+              child: new Text(
+            "Text 3",
+            textAlign: TextAlign.center,
+          ))
+        ]));
   }
 }
 

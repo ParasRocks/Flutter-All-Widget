@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92c7033-230e-450d-9f5e-86c1cb14d258" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="35" column="121" lean-forward="false" selection-start-line="35" selection-start-column="121" selection-end-line="35" selection-end-column="121" />
+            <state relative-caret-position="375">
+              <caret line="67" column="76" lean-forward="false" selection-start-line="67" selection-start-column="76" selection-end-line="67" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -74,9 +73,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
+    <option name="x" value="778" />
     <option name="y" value="24" />
-    <option name="width" value="1010" />
+    <option name="width" value="542" />
     <option name="height" value="660" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -229,15 +228,15 @@
       <updated>1525588189906</updated>
       <workItem from="1525588225267" duration="69000" />
       <workItem from="1525591569814" duration="48000" />
-      <workItem from="1525593072089" duration="8362000" />
+      <workItem from="1525593072089" duration="8850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8479000" />
+    <option name="totallyTimeSpent" value="8967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="24" width="1010" height="660" extended-state="0" />
+    <frame x="778" y="24" width="542" height="660" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -346,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="35" column="121" lean-forward="false" selection-start-line="35" selection-start-column="121" selection-end-line="35" selection-end-column="121" />
+        <state relative-caret-position="375">
+          <caret line="67" column="76" lean-forward="false" selection-start-line="67" selection-start-column="76" selection-end-line="67" selection-end-column="76" />
           <folding />
         </state>
       </provider>

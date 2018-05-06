@@ -33,23 +33,40 @@ class MyApp extends StatelessWidget {
 //              textScaleFactor: 0.8,
 //              style: TextStyle(color: Colors.black),
 //            )));
-        home: new Column(mainAxisSize: MainAxisSize.min,crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[
-          new Flexible(
-            child: new Text(
-              "Text 1"
-            ),
+//        home: new Column(mainAxisSize: MainAxisSize.min,crossAxisAlignment: CrossAxisAlignment.start, children: <Widget>[
+//          new Flexible(
+//            child: new Text(
+//              "Text 1"
+//            ),
+//          ),
+//          new Flexible(
+//            child: new Text(
+//              "Text 2"
+//            ),
+//          ),
+//          new Flexible(
+//              child: new Text(
+//            "Text 3"
+//          )),
+//          const FlutterLogo()
+//        ]));
+        home: new Scaffold(
+          floatingActionButton: new RaisedButton(
+            onPressed: null,
+            child: new Text("click Me"),
           ),
-          new Flexible(
-            child: new Text(
-              "Text 2"
-            ),
+          appBar: new AppBar(
+            title: new Text("Scaffold"),
+            backgroundColor: Colors.yellow
           ),
-          new Flexible(
-              child: new Text(
-            "Text 3"
-          )),
-          const FlutterLogo()
-        ]));
+          bottomNavigationBar: new Text("Nevigation"),
+          drawer: new Text("This is drawer"),
+          persistentFooterButtons: <Widget>[
+            new Text("Footer 1"),
+            new Text("Footer 2"),
+          ],
+          body: new Text("Welcome to Scaffold App",textAlign: TextAlign.end,)
+        ));
   }
 }
 
